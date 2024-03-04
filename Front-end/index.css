@@ -35,8 +35,7 @@
 
 .loginForm{
     max-width: 450px;
-    border-right: 2px solid #000;
-    border-bottom: 1px solid #000;
+    box-shadow: 5px 3px 5px 0px #1111118f;
 }
 
 .formHead{
