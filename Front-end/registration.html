@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+    <script src="registration.js" defer></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="form">
+            <div style="margin: 20px 0; display: flex; justify-content: flex-end;padding: 0 10px;" class="lang">
+                <select name="" id="lang" style="border: none; cursor: pointer;">
+                    <option value="English">English</option>
+                    <option value="Bangla">Bangla</option>
+                </select>
+            </div>
+            <div class="formHead">Register</div>
+            <form action="#" id="form">
+                <label for="fName">First name</label>
+                <input type="text" name="fName" id="fName" required autofocus>
+                <label for="lName">Last name</label>
+                <input type="text" name="lName" id="lName" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass" required>
+                <label for="cPass">Confirm password</label>
+                <input type="password" name="cPass" id="cPass" required>
+                <a href="#" style="margin-bottom: 10px; text-decoration: none;">Back to Login</a>
+                <input type="submit" value="Register" class="register" style="background-color: blue; color: white; font-size: 15px;">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

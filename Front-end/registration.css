@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formHead{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    margin-top: 20px;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    min-width: 350px;
+    border: 1px solid black;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+}
+
+input{
+    padding: 8px 5px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.295);
+    border-bottom: 2px solid #acacac;
+}
+
+label{
+    padding-bottom: 5px;
+}

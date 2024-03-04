@@ -10,7 +10,7 @@
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    background-color: #dddddd;
+    background-color: #f3f3f34d;
     padding: 0 15px;
     position: fixed;
 }
@@ -36,6 +36,8 @@
 .loginForm{
     max-width: 450px;
     box-shadow: 5px 3px 5px 0px #1111118f;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .formHead{
@@ -43,6 +45,7 @@
     font-size: 20px;
     font-weight: 600;
     position: relative;
+    margin-top: 20px;
 }
 
 .formHead::after{
@@ -87,6 +90,7 @@ input[type='submit']{
     cursor: pointer;
     padding: 10px 0;
     border:none;
+    font-size: 15px;
 }
 
 .newUser{
@@ -94,4 +98,8 @@ input[type='submit']{
     background-color: #f1f1f0;
     padding: 20px 0;
     text-align: center;
+}
+
+.newUser a{
+    text-decoration: none;
 }
