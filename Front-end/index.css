@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #dddddd;
+    padding: 0 15px;
+    position: fixed;
+}
+
+.navlogo{
+    max-width: 60px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm{
+    max-width: 450px;
+    border-right: 2px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.formHead{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+}
+
+.formHead::after{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    background: #000;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.formBody{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+}
+
+label{
+    cursor: pointer;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+input[type='text'],input[type='password']{
+    min-width: 350px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #79797971;
+    border-bottom: 2px solid #00000077;
+}
+
+.forgot{
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+input[type='submit']{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 10px 0;
+    border:none;
+}
+
+.newUser{
+    width: 100%;
+    background-color: #f1f1f0;
+    padding: 20px 0;
+    text-align: center;
+}
