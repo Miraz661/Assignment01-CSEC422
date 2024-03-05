@@ -3,7 +3,7 @@ const form = document.getElementsByClassName("formBody")[0];
 
 
 register.addEventListener("click",()=>{
-    location.href="../Registration/registration.html";
+    location.href="/Front-end/Registration/registration.html";
 })
 
 
@@ -20,5 +20,5 @@ form.addEventListener("submit",(e)=>{
         return;
     }
 
-    location.href="../Home/home.html";
+    location.href="/Front-end/Home/home.html";
 })

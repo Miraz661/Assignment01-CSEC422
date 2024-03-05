@@ -2,7 +2,7 @@ const loginPage = document.getElementsByClassName("login")[0];
 const form = document.getElementById("form");
 
 loginPage.addEventListener("click",()=>{
-    location.href="../Login/index.html";
+    location.href="../../index.html";
 })
 
 form.addEventListener("submit",(e)=>{
