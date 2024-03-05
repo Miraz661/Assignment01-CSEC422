@@ -31,5 +31,5 @@ form.addEventListener("submit",(e)=>{
     localStorage.setItem("user",email);
     localStorage.setItem("pass",pass);
     alert("Registration succesful...");
-    location.href="../Login/index.html";
+    location.href="../../index.html";
 })
